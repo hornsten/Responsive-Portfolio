@@ -1,0 +1,305 @@
+/*
+*==Global Styles==
+*/
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: auto;
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url('../images/new_year_background.png');
+	line-height: 150%;
+	font-size: 16px;
+	
+}
+
+.wrapper {
+
+	min-height: 100%;
+	margin: 0 auto -150px;
+	height: auto !important;
+	height: 100%;
+	
+}
+
+p {
+	margin: 20px 0px;
+}
+
+img {
+	height: 25%;
+	width:25%;
+	padding: 1px;
+}
+
+img:hover {
+	opacity: 0.7;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+	line-height: 300%;
+
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+h6 {
+	display: none;  /*This tag is added for accessibility.It will not be visible*/
+}
+/*
+*==Navigation and Header==
+*/
+nav {
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	background: #ffffff;
+	line-height: 100%;
+	width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    margin-left: 7%;
+}
+
+li a {
+    float: right;
+    color: #777777;
+    padding: 27px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-shadow: 0 0 black;
+}
+
+li a:hover {
+    background-color: #cccccc;
+    color: #ffffff;
+}
+
+#my-name {
+	background-color:  #4aaaa5;
+	color: #ffffff;
+	padding: 25px;
+	float: left;
+	display: inline;
+	line-height: 100%;
+	border: none;
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+
+#my-name:hover {
+	background-color: #337571; 
+}
+
+#menu-margin {
+	margin-right: 8%;
+}
+
+/*
+*==Main Content Area==
+*/
+
+.bio, .text, .gallery {
+	width: 60%;
+	height: auto;
+	background: #ffffff;
+	float: left;
+	margin-left: 7%;
+	margin-top: 30px;
+	margin-bottom: 30px;	
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	line-height: 200%;
+	
+}
+
+.bio, .text {
+	padding: 0px 25px 25px;
+}
+
+
+
+.gallery {
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+}
+
+/*
+*--About Me Section--
+*/
+
+#pic  {
+	height: 150px;
+	width: auto;
+	margin: 30px 20px 0px 0px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#pic:hover {
+	opacity: 1;
+}
+
+/*
+*--Portfolio Section--
+*/
+
+#portfolio-heading {
+	text-align: left;
+	margin: 0px 25px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+	
+	display: inline-block;
+	margin: 30px 10px 0px 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 250px;	
+	height: 175px;
+	box-shadow: 0 0 black;
+	text-align: center;
+	
+}
+
+.img1:hover,.img2:hover, .img3:hover, .img4:hover, .img5:hover {
+
+	box-shadow: 20px 20px 10px rgba(0,0,0,.5);
+	opacity: 0.7;
+
+}
+
+.img1 {
+
+	background-image: url("../images/city-q-c-640-480-4.jpg");
+}
+
+.img2 {
+	background-image: url("../images/fashion-q-c-640-480-5.jpg");
+}
+
+.img3 {
+	background-image: url("../images/fashion-q-c-640-480-7.jpg");
+}
+
+.img4 {
+	background-image: url("../images/fashion-q-c-640-480-10.jpg");
+}
+
+.img5 {
+	background-image: url("../images/nature-q-c-640-480-7.jpg");
+}
+
+
+.desc {
+	background: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 5px 0px;
+	margin-top: 125px;
+	
+}
+
+/*
+*--Contact Section--
+*/
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+textarea {
+	border-color: #dddddd;
+	
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 100px;
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding:10px;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+	background-color: #337571;
+}
+
+/*
+*==Sidebar Content Area==
+*/
+
+.connect  {
+	
+	width: 18%;
+	height: auto;
+	background: #ffffff;
+	float: left;
+	margin-left: 3%;
+	margin-right: 7%;
+	margin-top: 30px;
+	padding: 10px 20px 30px 20px;
+	border: 1px solid #dddddd;
+	text-align: center;
+	min-width: 150px;
+	
+}
+
+#icons {
+	padding-top: 10px;
+	
+}
+
+/*
+*==Footer==
+*/
+
+.footer, .push {
+
+	clear:both;
+	height: 150px;
+}
+
+.footer {
+	background: #666666;
+	border-top: 6px solid #4aaaa5;
+	text-align: center;
+	color: #ccc;
+	font-size: 10px;
+
+}
+
