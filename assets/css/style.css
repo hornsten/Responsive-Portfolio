@@ -333,6 +333,14 @@ input[type=submit]:hover {
 
 }
 
+@media only screen and (max-width: 905px) {
+
+#menu-margin {
+	margin-right: 150px;
+}
+
+}
+
 @media only screen and (max-width: 768px) {
 
 	ul {
@@ -471,4 +479,11 @@ input[type=submit]:hover {
 
 }
 
+@media only screen and (max-width: 400px) {
 
+	li a {
+		width: 22%;
+
+	}
+
+}
