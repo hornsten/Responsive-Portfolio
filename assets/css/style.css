@@ -225,7 +225,7 @@ li a:hover {
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 5px 0px;
-	margin-top: 125px;
+	margin-top: 50%;
 	
 }
 
@@ -434,7 +434,7 @@ input[type=submit]:hover {
 	}
 	.img1, .img2, .img3, .img4, .img5 {
 		width: 90%;
-		height: 375px;
+		height: 300px;
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -450,7 +450,7 @@ input[type=submit]:hover {
 }	
 
 	.desc {
-		margin-top: 320px;
+		margin-top: 250px;
 		
 	}
 
@@ -478,12 +478,37 @@ input[type=submit]:hover {
     }
 
 }
+@media only screen and (max-width: 470px) {
 
-@media only screen and (max-width: 400px) {
+	.img1, .img2, .img3, .img4, .img5 {
+		width: 90%;
+		height: 285px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.desc {
+
+		margin-top: 60%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
 
 	li a {
 		width: 22%;
 
+	}
+
+	.img1, .img2, .img3, .img4, .img5 {
+		width: 90%;
+		height: 245px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.desc {
+		margin-top: 52%;
 	}
 
 }
