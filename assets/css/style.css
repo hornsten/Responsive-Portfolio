@@ -69,9 +69,7 @@ h4 {
 h6 {
 	display: none;  /*This tag is added for accessibility.It will not be visible*/
 }
-/*
-*==Navigation and Header==
-*/
+/*Navigation bar and header section*/
 nav {
 	background: #ffffff;
 	border-bottom: 2px solid #cccccc;
@@ -123,9 +121,9 @@ li a:hover {
 	margin-right: 8%;
 }
 
-/*
-*==Main Content Area==
-*/
+
+/*Main Content Area*/
+
 
 .bio, .text, .gallery {
 	width: 60%;
@@ -153,7 +151,7 @@ li a:hover {
 }
 
 /*
-*--About Me Section--
+*--About Me Section (.bio)--
 */
 
 #pic  {
@@ -169,7 +167,7 @@ li a:hover {
 }
 
 /*
-*--Portfolio Section--
+*--Portfolio Section (.gallery)--
 */
 
 #portfolio-heading {
@@ -230,7 +228,7 @@ li a:hover {
 }
 
 /*
-*--Contact Section--
+*--Contact Section (.text)--
 */
 
 input, textarea {
@@ -303,9 +301,12 @@ input[type=submit]:hover {
 	font-size: 10px;
 
 }
-    
+    /*These are media queries to make the website responsive. I added a few extras to 
+    *make the transitions smoother across all widths*/
+
     @media only screen and (max-width: 980px) {
-  
+  /*The images from the homework showed a narrower main content section and 
+  *a one-column portfolio layout.  I changed the percentage to reflect this*/
    .bio, .text, .gallery {
         width: 45%;
 
@@ -322,7 +323,7 @@ input[type=submit]:hover {
 	}
 
 .img6 {
-
+/*This removes the "dummy" image I inserted earlier to format the portfolio content*/
 	margin: 0;
 	background-size: 0;
 	width: 0;	
@@ -332,7 +333,7 @@ input[type=submit]:hover {
 }	
 
 }
-
+/*I added this one to get rid of an awkward transition*/
 @media only screen and (max-width: 905px) {
 
 #menu-margin {
@@ -342,7 +343,8 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 768px) {
-
+/*The main content section and sidebar are now stacked and full-width. The navbar retains its 
+*previous look. The portfolio section goes back to two-column as shown in the homework images*/
 	ul {
 		margin-left: 15px;
 	}
@@ -387,7 +389,7 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 640px) {
-	   	
+	   	/*In this view, everything stacks full-width and aligns to center.*/
 	#header {
 		position: static;
 	}
@@ -478,6 +480,7 @@ input[type=submit]:hover {
     }
 
 }
+/*I added the two following media queries to make the site neat and functional even on the smallest screens.*/
 @media only screen and (max-width: 470px) {
 
 	.img1, .img2, .img3, .img4, .img5 {
